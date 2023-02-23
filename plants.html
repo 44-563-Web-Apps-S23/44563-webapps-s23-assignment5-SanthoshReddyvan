@@ -32,7 +32,184 @@
         <div class="col-md">Knautia</div>
     </div>
     </div>
-<p>plants word will break first because the width of col-md(>982px) has greater than col-sm(768px).
-    In bootstrap if width is large it will break first.</p>
+    <p>plants word will break first because the width of col-md(>982px) has greater than col-sm(768px).
+    In bootstrap if width is large it will break first.
+    </p>
+    <br>
+    <h5>Responsive Images</h5>
+    <div class="container">
+        <img src="images/Vessinium.jpg" class="img-fluid" alt="Vaccinium plant"width="250" height="250" >
+        <img src="images/Abelia(1).jpg" class="img-fluid" alt="Abelia plant"width="250" height="250" >
+        <img src="images/Nemesia.jpg" class="img-fluid" alt="Nemesia plant"width="250" height="250" > 
+    </div>
+    <br>
+    <h5>Thumbnail Images</h5>
+    <div class="container">
+      <img src="images/Vessinium.jpg" class="img-thumbnail" alt="Vaccinium plant"width="250" height="250" >
+      <img src="images/Abelia(1).jpg" class="img-thumbnail" alt="Abelia plant"width="250" height="250" >
+      <img src="images/Nemesia.jpg" class="img-thumbnail" alt="Nemesia plant"width="250" height="250" >
+    </div>
+    <br>
+    <h3> Table:</h3>
+    <table class="table table-bordered border-primary table-striped table-hover table-sm table-padding">
+    <caption>Table with my elements </caption>
+    <thead text-align="center">
+      <tr class = "table-dark">
+      <th scope="col">Letter</th>
+      <th scope="col">Plant</th>
+      <th scope="col">Mountain</th>
+      <th scope="col">Lake</th>
+    </tr>
+    </thead>
+    <tbody> 
+      <tr class="table-danger">
+        <th scope="row">V</th>
+        <td>Vaccinium</td>
+        <td>Valor</td>
+        <td>Vakanda</td>
+      </tr>
+      <tr class="table-info">
+        <th scope="row">A</th>
+        <td>Abelia</td>
+        <td>Annex</td>
+        <td>Annex</td>
+      </tr>
+      <tr class="table-secondary">
+        <th Scope="row">N</th>
+        <td>Nemesia</td>
+        <td>Nalter</td>
+        <td>Narem</td>
+      </tr>
+      <tr class="table-warning">
+        <th scope="row">D</th>
+        <td>Danae</td>
+        <td>Diablo</td>
+        <td>Dal</td>
+      </tr>
+      <tr class="table-success">
+        <th scope="row">N</th>
+        <td>Nepata</td>
+        <td>Nallir</td>
+        <td>Nasa</td>
+      </tr>
+      <tr class="table-info">
+        <th scope="row">P</th>
+        <td>Paenoia</td>
+        <td>Pandim</td>
+        <td>Paw</td>
+      </tr>
+    </tbody>
+    </table>
+    <br>
+
+    <label> Buttons:</label>
+    <br>
+    <button class="btn">V</button>
+    <button class="btn">A</button>
+    <button class="btn">N</button>
+    <button class="btn">D</button>
+    <button class="btn">N</button>
+    <button class="btn">P</button>
+    <br>
+    <label>Button Groups</label>
+
+    <div class="btn-toolbar">
+      <div class="btn-group" role="success" >
+      <button type="button" class="btn btn-success">V</button>
+      <button type="button" class="btn btn-success">A</button>
+      <button type="button" class="btn btn-success">N</button>
+    </div>
+    <div class="btn-group" role="warning" >
+      <button type="button" class="btn btn-warning">D</button>
+      <button type="button" class="btn btn-warning">N</button>
+    </div>
+      
+    <div class="btn-group" role="danger" >
+      <button type="button" class="btn btn-danger">P</button>
+    </div>
+    </div>
+
+    <br>
+    <label>Dropdown</label>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Initial Letter
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="basic.html">Basic HTML Page</a></li>
+        <li><a class="dropdown-item" href="advanced.html">Advanced HTML Page</a></li>
+      </ul>
+    </div>
+    <br>
+    <h3>Forms:</h3>
+		<form>
+			<div class="form-group">
+			<label for="exampleInputEmail1">Email address</label>
+			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+			<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+			</div>
+			<div class="form-group">
+			<label for="exampleInputPassword1">Plant</label>
+			<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your Plant">
+			</div>
+			<div class="form-check">
+			<input type="checkbox" class="form-check-input" id="exampleCheck1">
+			<label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+
+      </form>
+      <br>
+
+      <h3> Bonus Cards: </h3>
+	  <div class="row">
+		<div class="col-sm-3">
+			<div class="card" style="width: 18rem;">
+			<img src="images/Vessinium.jpg" class="card-img-top" alt="Vaccinium">
+			<div class="card-body">
+			<h5 class="card-title">Vaccinium</h5>
+			<p class="card-text">Vaccinium is a common and widespread genus of shrubs or dwarf shrubs in the heath family. The fruits of many species are eaten by humans and some are of commercial importance, including the cranberry, blueberry, bilberry, lingonberry, and huckleberry.</p>
+			<a href="images/Vessinium.jpg" class="btn btn-success">Vaccinium Image</a>
+			</div>
+			
+		</div>
+	</div>
+
+    <div class="col-sm-3">
+	<div class="card" style="width: 18rem;">
+	<img src="images/Abelia(1).jpg" class="card-img-top" alt="Abelia">
+		<div class="card-body">
+			<h5 class="card-title">Abelia</h5>
+			<p class="card-text">Abelia is an ornamental shrub that is under-appreciated and underused in many parts of the country and is worth a second look.Abelia ‘Kaleidoscope’ is one of the easiest, most versatile plants for your garden.</p>
+			<a href="images/Abelia(1).jpg" class="btn btn-danger">Abelia Image</a>
+		</div>
+		</div>
+
+    </div>
+
+    <div class="col-sm-3">
+
+        <div class="card" style="width: 18rem;">
+		<img src="images/Nemesia.jpg" class="card-img-top" alt="Nemesia">
+				<div class="card-body">
+				<h5 class="card-title">Nemesia</h5>
+				<p class="card-text">Nemesia is a genus of annuals, perennials and sub-shrubs which are native to sandy coasts or disturbed ground in South Africa. Numerous hybrids have been selected, and the annual cultivars are popular with gardeners as bedding plants </p>
+				<a href="images/Nemesia.jpg" class="btn btn-primary">Nemesia Image</a>
+				</div>
+
+          </div>
+
+        </div>
+
+     </div>
+
+
+
+      
+
+
+
 </body>
 </html>
